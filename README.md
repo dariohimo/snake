@@ -54,7 +54,7 @@ Entregables
 
 ---
 
-[![Book python](./img/Python.pdf"database Date")]()
+[👩‍🎓Book python]( https://github.com/dariohimo/snake/blob/main/img/Python.pdf)
 ---
 
 **github**
