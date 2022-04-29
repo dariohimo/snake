@@ -58,7 +58,7 @@ Entregables
 ---
 
 ## deploy 
-**Heroku** 📜
+**Replit.com** 📜
 - **[REPLIT]( https://replit.com/@dariohimo/snake?v=1)**
 ---
 
