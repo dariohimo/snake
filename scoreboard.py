@@ -1,4 +1,5 @@
 from turtle import Turtle
+from playsound import playsound
 
 ALIGN = "center"
 
@@ -17,6 +18,7 @@ class Scoreboard(Turtle):
        self.hideturtle()
        
    def update_score(self):
+      self.clear() 
       self.write(f"Score: {self.score}", font=FONT, align=ALIGN)
       self.penup()
       
@@ -28,7 +30,7 @@ class Scoreboard(Turtle):
    def game_over(self):
         self.goto(0,0)
         self.write(f"Game Over !! {self.score}", font=FONT, align=ALIGN)
-        
+        playsound("./sounds/over.wav")
         
   
         

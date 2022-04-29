@@ -1,6 +1,6 @@
 from turtle import Turtle
-
 import random
+from playsound import playsound
 
 #creacion del cuerpo de la serpiente
 
@@ -53,17 +53,21 @@ class Snake:
     def up(self):
         if self.head.heading() != DOWN:
             self.head.setheading(UP)
+            playsound("./sounds/eat.wav")
 
     def down(self): 
         if self.head.heading() != UP:
             self.head.setheading(DOWN)
- 
+            playsound("./sounds/eat.wav")
+
     def left(self):
         if self.head.heading() != RIGHT:
             self.head.setheading(LEFT)
+            playsound("./sounds/eat.wav")
         
     def right(self):  
         if self.head.heading() != LEFT:
             self.head.setheading(RIGHT)
+            playsound("./sounds/eat.wav")
 
 
