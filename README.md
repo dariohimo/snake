@@ -64,6 +64,6 @@ Entregables
 
 **github**
 
-- 👨‍💻 **[Dario Higuera Moreno]( https://github.com/dariohimo)**
+- 👨‍💻 **[Dario Higuera Moreno]( https://github.com/dariohimo)** Abril 28 de 2022
   
 ---
