@@ -57,6 +57,11 @@ Entregables
 [👩‍🎓Book python]( https://github.com/dariohimo/snake/blob/main/img/Python.pdf)
 ---
 
+## deploy 
+**Heroku** 📜
+- **[REPLIT]( https://replit.com/@dariohimo/snake?v=1)**
+---
+
 **github**
 
 - 👨‍💻 **[Dario Higuera Moreno]( https://github.com/dariohimo)**
