@@ -11,14 +11,15 @@ class Scoreboard(Turtle):
    def __init__(self):     #creacion tablero de puntos.
        super().__init__()  #metodos acciones
        self.score = 0   #atributos c
-       self.goto(0, 270)
-       self.color("Red")
+       self.goto(0, 250)
+       #self.color("Red")
        self.update_score()
        self.update_score()
        self.hideturtle()
        
    def update_score(self):
       self.clear() 
+      self.color("green")
       self.write(f"Score: {self.score}", font=FONT, align=ALIGN)
       self.penup()
       
